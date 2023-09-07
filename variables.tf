@@ -1,3 +1,7 @@
+variable "broker_name" {
+  type        = string
+  description = "The name of the broker."
+}
 variable "apply_immediately" {
   type        = bool
   description = "Specifies whether any cluster modifications are applied immediately, or during the next maintenance window"
